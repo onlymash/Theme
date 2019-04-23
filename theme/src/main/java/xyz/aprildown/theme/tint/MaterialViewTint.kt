@@ -68,7 +68,7 @@ internal fun MaterialButton.decorateNormalButton(backgroundTintName: String) {
             ),
             intArrayOf(
                 it,
-                context.color(R.color.mtrl_btn_bg_color_disabled)
+                context.color(R.color.mtrl_on_primary_disabled)
             )
         )
     }

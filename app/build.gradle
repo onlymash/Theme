@@ -25,18 +25,18 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation project(':theme')
 
-    implementation libs.kotlin_stdlib_jdk7
+    implementation libs.kotlin_stdlib_jdk
 
-    implementation libs.androidx_appcompat
-    implementation libs.androidx_constraintlayout
-    implementation libs.material
+    implementation 'androidx.appcompat:appcompat:1.1.0-alpha04'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.0-alpha4'
+    implementation 'com.google.android.material:material:1.1.0-alpha05'
 
     debugImplementation libs.leak_cannary
     debugImplementation libs.leak_cannary_fragment
     releaseImplementation libs.leak_cannary_no_op
 
     // We need its complete material color palette
-    implementation "com.mikepenz:materialize:1.2.0"
+    implementation "com.mikepenz:materialize:1.2.1"
 
     implementation libs.kotlin_anko_common
     implementation libs.kotlin_anko_design

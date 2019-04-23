@@ -20,10 +20,10 @@ android {
 }
 
 dependencies {
-    implementation libs.kotlin_stdlib_jdk7
-    implementation libs.androidx_appcompat
+    implementation libs.kotlin_stdlib_jdk
+    implementation 'androidx.appcompat:appcompat:1.1.0-alpha04'
     implementation libs.androidx_cardview
-    implementation libs.androidx_recyclerview
+    implementation 'androidx.recyclerview:recyclerview:1.1.0-alpha04'
 
-    implementation libs.material
+    implementation 'com.google.android.material:material:1.1.0-alpha05'
 }
